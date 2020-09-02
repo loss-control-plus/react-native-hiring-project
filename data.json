@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Basic Home Inspection",
+        "questions": [
+            {
+                "question": "What kind of roof does the home have?",
+                "qtype": "single-select",
+                "atype": "str",
+                "options": [
+                    "Asphalt",
+                    "Metal",
+                    "Slate",
+                    "Rubber",
+                    "Clay / Concrete",
+                    "Solar"
+                ],
+                "required": true,
+                "photos_required": true,
+                "answer": "",
+                "photos": []
+            },
+            {
+                "question": "Is there proper drainage away from the house?",
+                "qtype": "yes-no",
+                "atype": "bool",
+                "required": true,
+                "photos_required": true,
+                "answer": false,
+                "photos": []
+            },
+            {
+                "question": "Is there evidence of standing water?",
+                "qtype": "yes-no",
+                "atype": "bool",
+                "required": true,
+                "photos_required": false,
+                "answer": true,
+                "photos": []
+            },
+            {
+                "question": "How many bedrooms?",
+                "qtype": "int",
+                "required": true,
+                "photos_required": false,
+                "answer": true,
+                "photos": []
+            },
+            {
+                "question": "What kind(s) of exterior does the house have?",
+                "qtype": "multi-select",
+                "atype": "array[str]",
+                "options": [
+                    "Stone",
+                    "Brick",
+                    "Adobe",
+                    "Vinyl Siding",
+                    "Wooden Siding",
+                    "Concrete"
+                ],
+                "required": true,
+                "photos_required": true,
+                "answer": "",
+                "photos": []
+            }
+        ]
+    },
+    {
+        "name": "Deluxe Home Inspection",
+        "questions": [
+            {
+                "question": "What kind of roof does the home have?",
+                "qtype": "single-select",
+                "atype": "str",
+                "options": [
+                    "Asphalt",
+                    "Metal",
+                    "Slate",
+                    "Rubber",
+                    "Clay / Concrete",
+                    "Solar"
+                ],
+                "required": true,
+                "photos_required": true,
+                "answer": "",
+                "photos": []
+            },
+            {
+                "question": "Is there proper drainage away from the house?",
+                "qtype": "yes-no",
+                "atype": "bool",
+                "required": true,
+                "photos_required": true,
+                "answer": false,
+                "photos": []
+            },
+            {
+                "question": "Is there evidence of standing water?",
+                "qtype": "yes-no",
+                "atype": "bool",
+                "required": true,
+                "photos_required": false,
+                "answer": true,
+                "photos": []
+            },
+            {
+                "question": "Is there evidence of prior standing water?",
+                "qtype": "yes-no",
+                "atype": "bool",
+                "required": true,
+                "photos_required": false,
+                "answer": true,
+                "photos": []
+            },
+            {
+                "question": "How many bedrooms?",
+                "qtype": "int",
+                "required": true,
+                "photos_required": false,
+                "answer": true,
+                "photos": []
+            },
+            {
+                "question": "How many bathrooms?",
+                "qtype": "int",
+                "required": true,
+                "photos_required": false,
+                "answer": true,
+                "photos": []
+            },
+            {
+                "question": "Is there any evidence of water leakage in the attic?",
+                "qtype": "yes-no",
+                "atype": "bool",
+                "required": true,
+                "photos_required": true,
+                "answer": false,
+                "photos": []
+            },
+            {
+                "question": "What kind(s) of exterior does the house have?",
+                "qtype": "multi-select",
+                "atype": "array[str]",
+                "options": [
+                    "Stone",
+                    "Brick",
+                    "Adobe",
+                    "Vinyl Siding",
+                    "Wooden Siding",
+                    "Concrete"
+                ],
+                "required": true,
+                "photos_required": true,
+                "answer": "",
+                "photos": []
+            }
+        ]
+    }
+]
